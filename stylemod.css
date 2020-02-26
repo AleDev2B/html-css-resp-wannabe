@@ -20,4 +20,8 @@
     height: auto;
   }
 
+#why .row > .first, #why .row > .second, #why .row > .third {
+
+margin-top: 20px;
+
 }
