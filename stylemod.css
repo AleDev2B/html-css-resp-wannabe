@@ -1,0 +1,23 @@
+/* ISTRUZIONI MEDIA TYPE PER ADATTAMENTO A DIVERSI SCHERMI */
+@media screen and (max-width:419px){
+
+  .row{
+    width: 100%;
+      }
+
+  #lezioni .row > .left, #lezioni .row > .right{
+    width: 100%;
+    float: none;
+  }
+
+  #steps .row > .left, #steps .row > .central, #steps .row > .right {
+    width: 100%;
+    float: none;
+  }
+
+  img{
+    width: 40%;
+    height: auto;
+  }
+
+}
